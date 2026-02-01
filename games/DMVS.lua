@@ -291,7 +291,7 @@ task.spawn(function()
     }
   }
   
-  local Gokka = loadstring(game:HttpGet("https://raw.githubusercontent.com/Moligrafi001/Triangulare/main/extra/Gokka.lua"))()
+  local Gokka = loadstring(game:HttpGet("https://raw.githubusercontent.com/s9y9qkfx7t-lang/mativilasanti_/main/extra/Gokka.lua"))()
   Gokka:DisconnectAll()
   
   Gokka:Connect({
@@ -514,7 +514,7 @@ do
     Value = false,
     Callback = function(state)
       getgenv().AutoKnife = state
-      while getgenv().AutoKnife and task.wait(0.1) do
+      while getgenv().AutoKnife and task.wait(0.0) do
         KillKnife()
       end
     end
@@ -525,7 +525,7 @@ do
     Value = false,
     Callback = function(state)
       getgenv().EquipKnife = state
-      while getgenv().EquipKnife and task.wait(0.25) do
+      while getgenv().EquipKnife and task.wait(0.0) do
         pcall(function()
           local Knife = ReturnItem("Knife", "Backpack")
           if Knife then Knife.Parent = eu.Character end
