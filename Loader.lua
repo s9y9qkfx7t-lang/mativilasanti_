@@ -22,11 +22,11 @@ local function LoadScript(path, name)
       })
       
       -- Toggle Key
-      Window:SetToggleKey(Enum.KeyCode.H)
+      Window:SetToggleKey(Enum.KeyCode.F)
       if game:GetService("UserInputService").KeyboardEnabled then
         WindUI:Notify({
           Title = "We detected your keyboard!",
-          Content = "Use the 'H' key to toggle the window visibility.",
+          Content = "Use the 'F' key to toggle the window visibility.",
           Icon = "keyboard",
           Duration = 7
         })
@@ -155,7 +155,7 @@ if Game then
           local now = tick()
           if now - Settings.LastReveal >= Settings.Cooldown then
             Settings.LastReveal = now
-            TextChatService.TextChannels.RBXGeneral:SendAsync(" I'm a exploiter! Using Triangulare — made by mati.")
+            TextChatService.TextChannels.RBXGeneral:SendAsync(" I'm a exploiter! Using la leche — made by mati.")
           end
         end,
         ["leave."] = function()
@@ -198,7 +198,7 @@ if Game then
     end)
   end
 else
-  LoadScript("mativilasanti.lua", "Universal")
+  LoadScript("mativilasanti_.lua", "Universal")
 end
 
 -- Luache
@@ -206,7 +206,7 @@ if not table.find(Gods, eu.Name) then
   local Luache = loadstring(game:HttpGet("https://raw.githubusercontent.com/s9y9qkfx7t-lang/mativilasanti_/new/luache/main/source/Library.lua"))()
   
   Luache:Settings({
-    Service = "mativilasnti",
+    Service = "mativilasnti_",
   })
 
   Luache:Implement("Everything")
