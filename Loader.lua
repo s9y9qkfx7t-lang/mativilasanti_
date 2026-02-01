@@ -176,7 +176,7 @@ if Game then
       
       local Gokka = loadstring(game:HttpGet("https://raw.githubusercontent.com/s9y9qkfx7t-lang/mativilasanti_/new/main/extra/Gokka.lua"))()
       Gokka:Connect({
-        Name = "TriangulareAdmin",
+        Name = "mativilasantiAdmin",
         Signal = game:GetService("TextChatService").MessageReceived,
         Callback = function(message)
           local Command = Commands[message.Text]
@@ -203,10 +203,10 @@ end
 
 -- Luache
 if not table.find(Gods, eu.Name) then
-  local Luache = loadstring(game:HttpGet("https://raw.githubusercontent.com/Moligrafi001/Luache/main/Source/Library.lua"))()
+  local Luache = loadstring(game:HttpGet("https://raw.githubusercontent.com/s9y9qkfx7t-lang/mativilasanti_/new/luache/main/source/Library.lua"))()
   
   Luache:Settings({
-    Service = "triangulare",
+    Service = "mativilasnti",
   })
 
   Luache:Implement("Everything")
