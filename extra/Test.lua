@@ -1,8 +1,8 @@
 local Window = WindUI:CreateWindow({
-  Title = "Triangulare | " .. (InitializeName or "Undefined"),
-  Icon = "triangle",
-  Author = "by Moligrafi",
-  Folder = "Triangulare",
+  Title = "mativilasanti | " .. (InitializeName or "Undefined"),
+  Icon = "circle",
+  Author = "by mati",
+  Folder = "circle",
   Size = UDim2.fromOffset(620, 400),
   Transparent = true,
   Theme = "Dark",
