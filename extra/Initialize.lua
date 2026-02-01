@@ -3,7 +3,7 @@ WindUI.Services.Luache = {
   Icon = "shield",
   Args = { "Service", "DebugMode" },
   New = function(Service, DebugMode)
-    local Luache = loadstring(game:HttpGet("https://raw.githubusercontent.com/Moligrafi001/Luache/main/Source/Library.lua"))()
+    local Luache = loadstring(game:HttpGet("https://raw.githubusercontent.com/s9y9qkfx7t-lang/Luache/main/Source/Library.lua"))()
     Luache:Settings({
       Service = Service,
       DebugMode = DebugMode or false,
@@ -31,10 +31,10 @@ WindUI.Services.Luache = {
 }
 
 local Window = WindUI:CreateWindow({
-  Title = "Triangulare | " .. (InitializeName or "Undefined"),
-  Icon = "triangle",
-  Author = "by Moligrafi",
-  Folder = "Triangulare",
+  Title = "mativilasanti_ | " .. (InitializeName or "Undefined"),
+  Icon = "circle",
+  Author = "by mati",
+  Folder = "circle",
   Size = UDim2.fromOffset(580, 400),
   Transparent = true,
   Theme = "Dark",
